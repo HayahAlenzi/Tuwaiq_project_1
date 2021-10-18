@@ -1,0 +1,126 @@
+body{
+
+    background-image:url("back.jpg");
+}
+#datex{
+    color: rgb(78, 90, 68);
+    text-align: center;
+    font-size: 30px;
+    font-family:cursive;
+    background-color:rgb(243, 245, 132,0.5);
+}
+
+  
+  #x
+  {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.header {
+    font-family:cursive;
+    margin:5px;
+    margin-top: 10px;
+    background-color: rgb(242, 245, 102,0.5);
+    padding: 50px 30px;
+    color: rgb(78, 90, 68);
+    text-align: center;
+    width: 40%;
+    height: 400px;
+    
+}
+.addBtn {
+    padding: 10px;
+    width: 21%; 
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    font-family:cursive;
+    cursor:pointer;
+    transition: 0.3s;
+    }
+
+
+    input {
+        margin: 0;
+        border: none;
+        border-radius: 0;
+        width: 55%;
+        padding: 10px;
+        float: left;
+        font-size: 16px;
+        font-family:cursive;
+        
+      }
+      .addBtn:hover {
+        background-color: #bbb;
+      }
+      
+      .header:after {
+        content: "";
+        display: table;
+        clear: both;}
+        ul li {
+          cursor: pointer;
+          position: relative;
+          padding: 12px 8px 12px 40px;
+          list-style-type: none;
+          background: #eee;
+          font-size: 18px;
+          transition: 0.2s;
+          
+         
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          
+        }
+        
+        
+        ul li:nth-child(odd) {
+          background: #f9f9f9;
+        }
+        
+        
+        ul li:hover {
+          background: #ddd;
+        }
+        
+        
+        ul li.checked {
+          background: #888;
+          color: #fff;
+          text-decoration: line-through;
+        }
+        
+        
+        ul li.checked::before {
+          content: '';
+          position: absolute;
+          border-color: #fff;
+          border-style: solid;
+          border-width: 0 2px 2px 0;
+          top: 10px;
+          left: 16px;
+          transform: rotate(45deg);
+          height: 15px;
+          width: 7px;
+        }
+        
+       
+        .close {
+          position: absolute;
+          right: 0;
+          top: 0;
+          padding: 12px 16px 12px 16px;
+        }
+        
+        .close:hover {
+          background-color: #f44336;
+          color: white;
+        }
