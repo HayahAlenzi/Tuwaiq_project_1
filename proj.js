@@ -1,4 +1,8 @@
 
+
+const d = new Date();
+document.getElementById("date").innerHTML = d.toDateString()
+
 // class Users{  //للوكل ستورق انشات كلاس عشان استفيد منه بتسجيل الدخول
 //   constructor(userName,userEmail,userPassword,userToDo){
 //       this.name=userName;
