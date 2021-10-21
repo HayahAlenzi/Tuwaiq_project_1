@@ -4,21 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Manage your tasks</title>
     <link rel="stylesheet" href="proj.css">
 </head>
 <body>
     
-   <!--- <div class="tab">
-        <button class="tablinks" onclick="hideShow(event, 'x')">**gjh,fh,f***</button>
-        <button class="tablinks" onclick="hideShow(event, 'y')">*****</button>
-        <button class="tablinks" onclick="hideShow(event, 'z')">*****</button></div>-->
    
-   <!---<div id="x" class="tabcontent" title=""> </div>
-     <div id="y" class="tabcontent" title=""></div> 
-     <div id="y" class="tabcontent" title=""> </div>-->
-
-     
      <div id="datex">
         <span>Today Date:  </span>
         <span id="date"> Today Date </span>
@@ -29,7 +20,7 @@
      <div id="myDIV" class="header">
         <h2>Create To Do List</h2>
         <input type="text" id="myInput" placeholder="New Task...">
-        <span onclick="newElement()" class="addBtn">Add</span>
+        <span onclick="addElement()" class="addBtn">Add</span>
         <span></span>
       </div>
      
@@ -37,14 +28,16 @@
       <div id="myDIV2" class="header">
         <h2>My To Do List</h2>
         <ul id="myUL">
-          <li>xxxxxxxxxxxxxxxxx</li>
-          <li>xxxxxxxxxxxxxxxxx</li>
-          <li>xxxxxxxxxxxxxxxxx</li>
-          <li>xxxxxxxxxxxxxxxxx</li>
+          <li></li>
           
       </ul>
       </div></div>
 
+      <div id="y" class="header">
+        <h2>Done ✔</h2>
+        <ul id="ul2"><li></li>
+        </ul>
+      </div>
       
 
 
